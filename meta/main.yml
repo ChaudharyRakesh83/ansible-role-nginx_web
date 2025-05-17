@@ -1,0 +1,19 @@
+galaxy_info:
+  author: rakesh
+  description: Ansible role to install and configure NGINX web server
+  license: MIT
+  min_ansible_version: 2.9
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - bullseye
+    - name: Ubuntu
+      versions:
+        - focal
+        - jammy
+  galaxy_tags:
+    - web
+    - nginx
+    - http
+dependencies: []
